@@ -1,0 +1,165 @@
+/*---------------------------------------------------- */
+
+/*------------------- CSS Variable --------------------*/
+
+:root {
+    /*Color Variables*/
+    --primary-color: var(--accent_solid_color_opt, #0050b2);
+    /*Theme Brand Color*/
+    --secondary-color: var(--secondary_color_opt, #171d24);
+    --body-color: var(--paragraph_color_opt, #4c5267);
+    /*Theme Paragraph Color*/
+    --black-50: #ebebeb;
+    --black-100: #d6d9dc;
+    --black-150: #c8ccd0;
+    --black-200: #bbc0c4;
+    --black-300: #7d848d;
+    --black-350: #9199a1;
+    --black-400: #848d95;
+    --black-500: #6a737c;
+    --black-600: #535a60;
+    --black-700: #3c4146;
+    --black-750: #2f3337;
+    --black-800: #242729;
+    --black-900: #0c0d0e;
+    --font-color-white: #ffffff;
+    --font-color-gray: #6b707f;
+    --bg-color-white: #ffffff;
+    --bg-color-gray: #f3f8f9;
+    --sec-bg-color: #f5f7fa;
+    --border_on_white: #e6edf0;
+    --border_on_gray: #dcdee0;
+    /*font Variables*/
+    --poppins: "Poppins", sans-serif;
+    --roboto: "Roboto", sans-serif
+}
+
+/**=== Override Elementor Style ===**/
+
+body .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 15px;
+}
+
+/***============ Admin Bar ================**/
+
+.admin-bar .header {
+    margin-top: 32px;
+}
+
+.admin-bar header .navbar_fixed {
+    top: 32px !important;
+}
+
+/***=========== Header ================***/
+
+.header .header-top {
+    padding: 18px 0;
+    background-color: var(--bg-color-white);
+}
+
+header .header-top .header-info-right ul li i,
+header .header-top .header-info-right ul li a,
+header .header-top .header-info-left {
+    color: #6a737c;
+}
+
+.header-menu.navbar_fixed .navbar .menu>.active>.nav-link {
+    color: var(--primary-color);
+}
+
+.header-menu .menu>.active.nav-item>.nav-link::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: var(--font-color-white);
+}
+
+.header-menu .menu>.nav-item:hover .dropdown-menu {
+    top: 99%;
+}
+
+#navbarSupportedContent {
+    justify-content: flex-end;
+}
+
+/***======== Error Page ==========***/
+
+.error_area .error_content_two .action_btn {
+    box-shadow: none;
+}
+
+/***============= Tabs ============***/
+
+.accolades-widget .accolades-content ul li+li {
+    margin-top: 16px;
+}
+
+.accolades-widget .accolades-content ul li p+p {
+    color: #f9d8ae;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.accolades-widget .accolades-content ul li p+p::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    height: 1px;
+    width: 15px;
+    background-color: #f9d8ae;
+    left: -18px;
+}
+
+/***================ Logo ====================***/
+
+.header-menu .navbar-brand h3,
+.footer_logo h3 {
+    margin: 0;
+    color: var(--font-color-white);
+}
+
+.navbar_fixed .navbar-brand h3 {
+    color: #201f1f;
+}
+
+/****======= Action Button =========****/
+
+.header-menu .theme-btn {
+    background-color: transparent;
+    border-color: #fff;
+    color: var(--font-color-white);
+}
+
+.header-menu .theme-btn:hover {
+    color: var(--primary-color);
+    border-color: #fff;
+    background-color: var(--bg-color-white);
+}
+
+/***========= Mailchimp Form ===============***/
+
+.subscribe .input-group {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.email-alert-widget .subscribe {
+    max-width: 950px;
+    margin: 0 auto;
+    display: block;
+}
+
+.job_sidebar_widget .catagory-list-widget .catagory-list {
+    padding: 15px 0 5px;
+}
+
+.job_sidebar_widget .catagory-list-widget .catagory-list .catagory-item .catagory-link {
+    padding: 9px 20px 9px 52px;
+}

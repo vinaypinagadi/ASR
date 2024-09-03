@@ -1,0 +1,543 @@
+/*================== Heading Widget ====================*/
+
+.elementor-heading-title span {
+    position: relative;
+}
+
+.elementor-heading-title span::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/*================== Text Underline Home 04 ====================*/
+
+.underline-shape {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.underline-shape::after {
+    content: "";
+    position: absolute;
+    left: -4px;
+    width: calc(100% + 8px);
+    bottom: 7px;
+    background-color: #72b1ff;
+    z-index: -1;
+    height: 27%;
+}
+
+/*========== Testimonials ===============*/
+
+.rating li {
+    display: inline-block;
+}
+
+.rating a .icon_star_alt {
+    color: #DEDEDE !important;
+}
+
+/*====== Cards =======*/
+
+.feature-area-2 .feature-img img {
+    width: auto;
+}
+
+/*====== Steps ========*/
+
+.how-it-work .apply-online .widget-img img {
+    max-width: initial;
+}
+
+/***========= Images Section ===========***/
+
+.banca_images_animation2 {
+    overflow: visible;
+}
+
+.track-f-progress .img-content .bg-img,
+.card-payment .img-content .bg-img,
+.internet-banking .img-content .bg-img,
+.banca_images_animation2 .hero-img img,
+.banca_images_animation3 .card-img img,
+.safe-deposit-area .card-img img,
+.blog_sidebar .recent_news_widget .media img {
+    max-width: inherit;
+}
+
+.banner-area-3 .position-relative .person-img {
+    max-width: initial;
+}
+
+/* testimonial style */
+
+.testimonial_style_five .client-slider .single-client img {
+    margin-left: 39%;
+    background-color: #fff;
+    box-shadow: 0px 8px 40px rgba(63, 93, 101, 0.2);
+    padding: 20px;
+}
+
+.testimonial_style_five .client-slider .single-client {
+    background: #F6F6F6;
+}
+
+.testimonial_style_five .client-slider .slick-dots li.slick-active {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0050B2;
+    border-radius: 100px;
+}
+
+.testimonial_style_five .client-slider .slick-dots li.slick-active button {
+    background-color: #0050B2;
+}
+
+.testimonial_style_five .client-slider .slick-dots li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+}
+
+.testimonial_style_five .client-slider .slick-dots li button {
+    margin: 14px;
+    background-color: #D4D4D4;
+}
+
+.testimonial_style_five .client-slider .single-client .client-info {
+    display: unset;
+}
+
+.testimonial_style_five .client-info .testimonial_title,
+.testimonial_style_five .client-info .testimonial_content {
+    text-align: center;
+}
+
+/* video style */
+
+.video_section .video {
+    display: inline;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 27px 29px;
+}
+
+/*Testimonial css*/
+
+@media(max-width: 768px) {
+    .client-slider-2 .slick-prev {
+        display: none !important;
+    }
+    .client-slider-2 .slick-next {
+        display: none !important;
+    }
+}
+
+/*banner css*/
+
+@media(max-width: 767px) {
+    .banner-area-5 .banner-content .co-operators {
+        margin-top: 50px;
+    }
+}
+
+/*====================== Loan Calculator ========================*/
+
+.calculator-widget-2 {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.calculator-widget-2 .single-calculator-widget {
+    padding: 40px 68px;
+    padding-right: 10px;
+}
+
+.calculator-widget-2 .single-calculator-widget h4 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    color: #18181b;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .tab-content {
+    width: calc(100% - 180px);
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .tab-content .noUi-horizontal {
+    width: 100%;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal {
+    width: calc(100% - 180px);
+    height: 9px;
+    background-color: #edeff3;
+    border-radius: 5px;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal .noUi-handle {
+    width: 24px;
+    height: 24px;
+    right: -11px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: -7px;
+    box-shadow: 0px 8px 10px 0px #bdc5d6cc;
+    cursor: pointer;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal .noUi-pips {
+    display: none;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal .noUi-connects {
+    border-radius: 5px;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range h6 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: var(--theme-title-color);
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .input-group {
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .input-group .input-group-text {
+    width: 48px;
+    background-color: #f8f9fe;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #a3aec2;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range input[type=text] {
+    height: 47px;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #18181b;
+    width: 105px;
+    text-align: start;
+    padding-left: 14px;
+    border: none;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range input[type=text]:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs {
+    background-color: rgba(0, 80, 178, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .active_bar {
+    position: absolute;
+    height: 29px;
+    left: 95px;
+    width: 81px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease-out;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .active_bar.left {
+    width: 95px;
+    left: 0;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .nav-item {
+    border: none;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .nav-item .nav-link {
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    height: 30px;
+    line-height: 29px;
+    padding: 0 25px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: var(--theme-text-color);
+    transition: all 0.3s ease-out;
+    position: relative;
+    z-index: 1;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .nav-item .nav-link.active {
+    color: #fff;
+}
+
+.calculator-widget-2 .single-calculator-widget .range-label {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #788694;
+    margin-bottom: 5px;
+}
+
+.calculator-widget-2 .single-calculator-widget .loan-type-select {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-bottom: none;
+}
+
+.calculator-widget-2 .single-calculator-widget .loan-type-select button {
+    border: 1px solid #cccccc;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6a737c;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.calculator-widget-2 .single-calculator-widget .loan-type-select button.active {
+    box-shadow: 0px 8px 20px 0px #0050b24d;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+
+.calculator-widget-2 .calculator-result-widget {
+    padding: 40px;
+    background-color: #f8f9fe;
+}
+
+.calculator-widget-2 .pie-wrapper {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 16em;
+}
+
+.calculator-widget-2 .pie-wrapper .label {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50%;
+    color: #6a737c;
+    cursor: default;
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calculator-widget-2 .pie-wrapper .label h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #18181b;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
+.calculator-widget-2 .pie-wrapper .pie {
+    height: 100%;
+    width: 100%;
+    clip: rect(0, 1em, 1em, 0.5em);
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.calculator-widget-2 .pie-wrapper .pie .half-circle {
+    height: 100%;
+    width: 100%;
+    border: 0.09em solid #f97857;
+    border-radius: 50%;
+    clip: rect(0, 0.5em, 1em, 0);
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.calculator-widget-2 .pie-wrapper .circle-border {
+    height: 100%;
+    width: 100%;
+    border: 0.09em solid #0065ef;
+    border-radius: 50%;
+}
+
+.calculator-widget-2 .graph-indicator {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #788694;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.calculator-widget-2 .graph-indicator span {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin-right: 8px;
+}
+
+.calculator-widget-2 .graph-indicator span.orange-dot {
+    background-color: #f97857;
+}
+
+.calculator-widget-2 .loan-calculation {
+    margin-top: 45px;
+}
+
+.calculator-widget-2 .loan-calculation li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.calculator-widget-2 .loan-calculation li:last-child {
+    border-top: 1px solid #d9dbe5;
+    padding-top: 18px;
+}
+
+.calculator-widget-2 .loan-calculation li .label {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6a737c;
+    display: inline-block;
+}
+
+.calculator-widget-2 .loan-calculation li .amount {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #18181b;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.calculator-widget-2 .loan-start-date {
+    gap: 24px;
+    margin-top: 76px;
+}
+
+.calculator-widget-2 .loan-start-date .inp-container {
+    position: relative;
+}
+
+.calculator-widget-2 .loan-start-date .inp-container::before {
+    content: "";
+    position: absolute;
+    font-family: "ElegantIcons";
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 20px;
+    content: "3";
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    color: #0050b2;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.calculator-widget-2 .loan-start-date .inp-container:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.calculator-widget-2 .loan-start-date input {
+    margin-top: 12px;
+    width: 240px;
+    border-radius: 6px;
+    height: 47px;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    padding: 0 16px;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #a3aec2;
+    position: relative;
+}
+
+.calculator-widget-2 .loan-start-date input::placeholder {
+    color: #a3aec2;
+}
+
+.calculator-widget-2 .loan-start-date input.active,
+.calculator-widget-2 .loan-start-date input:hover {
+    border: 1px solid #cccccc;
+    color: #18181b;
+}
+
+.calculator-widget-2 .loan-start-date input.active::placeholder,
+.calculator-widget-2 .loan-start-date input:hover::placeholder {
+    color: #18181b;
+}

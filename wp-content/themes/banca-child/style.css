@@ -1,0 +1,21 @@
+/*
+Theme Name: Banca Child
+Theme URI: https://wordpress-theme.spider-themes.net/banca/
+Description: Banca is a Business and Finance WordPress theme for Consulting websites or promoting your services, Bank websites, loan companies, corporate and business-related services
+Author: Spider-themes
+Author URI: https://themeforest.net/user/spider-themes
+Template: banca
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Tags: agency, bank website, banking, broker, card, clean, consulting, credit card, finance, financial, loan, loan calculator, loan website, mortgage, services
+Text Domain: banca-child
+*/
+
+.doc_blog_classic_area {
+    background-color: red;
+}
+
+body {
+    background-color: #0a4b78;
+}
